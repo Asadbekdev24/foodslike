@@ -12,7 +12,7 @@ class ProductModel {
   final String category;
   final String image;
   @JsonKey(name: "is_favorite")
-  final bool isFavorite;
+ bool isFavorite;
 
   ProductModel({
     required this.id,
